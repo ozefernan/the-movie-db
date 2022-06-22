@@ -1,0 +1,78 @@
+.peaple-cotainer {
+  max-width: 1280px;
+  margin: 4rem auto;
+  padding: 2rem;
+
+  border-radius: 4px;
+  background: #222228;
+}
+
+.peaple-cotainer .peaple-content {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 3fr 1fr;
+}
+
+.peaple-cotainer .peaple-content .peaple-poster {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 2rem;
+  border-left: 1px solid #16161a;
+}
+
+.peaple-cotainer .peaple-content .peaple-info h1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.peaple-cotainer .peaple-content .peaple-info .peaple-popularity {
+  display: flex;
+  gap: 0.5rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 0.6rem;
+}
+
+.peaple-cotainer .peaple-content .peaple-info .peaple-popularity span {
+  padding: 0 10px;
+
+  background: #7f5af0;
+
+  font-size: 2rem;
+}
+
+.peaple-cotainer .peaple-content .peaple-info p {
+  margin-top: 1rem;
+
+  font-size: 0.7rem;
+}
+
+.peaple-cotainer .peaple-content .peaple-info .back-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 35px;
+  width: 35px;
+
+  background: #7f5af0;
+  border-radius: 100%;
+
+  transition: 0.4s;
+  cursor: pointer;
+}
+
+.peaple-cotainer .peaple-content .peaple-info .back-page:hover {
+  opacity: 0.6;
+}
+
+.peaple-cotainer .peaple-content .peaple-poster img {
+  height: 500px;
+  margin-bottom: 1rem;
+
+  border: 10px solid #16161a;
+}

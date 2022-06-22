@@ -1,0 +1,26 @@
+.movie-list-container {
+  padding-bottom: 10rem;
+}
+
+.movie-list-content {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}
+
+.movie-list-content .movie-title {
+  font-size: 1.5rem;
+}
+
+.movie-list-footer-pagination {
+  display: flex;
+  justify-content: flex-end;
+
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem 3rem;
+}

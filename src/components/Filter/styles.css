@@ -1,0 +1,85 @@
+.filter-container {
+  padding: 1rem 0 2rem 0;
+}
+
+.filter-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+
+  max-width: 1280px;
+  min-height: 5rem;
+  margin: 0 auto;
+  padding: 0 2rem 1rem;
+}
+
+@media (max-width: 1080px) {
+  .filter-content {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+  }
+}
+
+.filter-content .filter-page-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.filter-content .filter-page-infos span {
+  font-size: 0.8rem;
+}
+
+.filter-content .filter-actions {
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+}
+
+.filter-content .header-filter-button {
+  display: flex;
+  align-items: center;
+
+  height: 35px;
+  padding: 0 8px;
+
+  border: 1px solid #7f5af0;
+  border-radius: 8px;
+  background: transparent;
+
+  font-size: 0.8rem;
+  color: #ffffff;
+
+  transition: 0.4s;
+}
+
+.filter-content .header-filter-button:hover {
+  background: #7f5af0;
+}
+
+.filter-content #genresSelect {
+  height: 35px;
+  min-width: 110px;
+  padding: 0 0.5rem;
+
+  border-radius: 8px;
+  border: none;
+
+  font-size: 0.8rem;
+
+  outline: none;
+}
+
+.filter-content #sortBySelect {
+  height: 35px;
+  min-width: 250px;
+  padding: 0 0.5rem;
+
+  border-radius: 8px;
+  border: none;
+
+  font-size: 0.8rem;
+
+  outline: none;
+}
